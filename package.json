@@ -1,0 +1,41 @@
+{
+  "name": "email-auth-node",
+  "version": "0.0.1",
+  "description": "This package helps building a production ready server for OTP verification",
+  "main": "index.js",
+  "bin": {
+    "email-auth-node": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saran-surya/production.git"
+  },
+  "keywords": [
+    "OTP",
+    "email",
+    "verification",
+    "email"
+  ],
+  "author": "Saran Surya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saran-surya/production/issues"
+  },
+  "homepage": "https://github.com/saran-surya/production#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "nodemon": "^2.0.12",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
